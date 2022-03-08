@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/vyarth-frontend/static/js/main.bb79a64d.js",
+    "main.js": "/vyarth-frontend/static/js/main.c025c020.js",
     "static/css/633.470cb921.chunk.css": "/vyarth-frontend/static/css/633.470cb921.chunk.css",
     "static/js/110.bedcca1e.chunk.js": "/vyarth-frontend/static/js/110.bedcca1e.chunk.js",
     "static/js/225.b17262cc.chunk.js": "/vyarth-frontend/static/js/225.b17262cc.chunk.js",
@@ -65,7 +65,7 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/vyarth-frontend/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/vyarth-frontend/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/vyarth-frontend/index.html",
-    "main.bb79a64d.js.map": "/vyarth-frontend/static/js/main.bb79a64d.js.map",
+    "main.c025c020.js.map": "/vyarth-frontend/static/js/main.c025c020.js.map",
     "633.470cb921.chunk.css.map": "/vyarth-frontend/static/css/633.470cb921.chunk.css.map",
     "110.bedcca1e.chunk.js.map": "/vyarth-frontend/static/js/110.bedcca1e.chunk.js.map",
     "225.b17262cc.chunk.js.map": "/vyarth-frontend/static/js/225.b17262cc.chunk.js.map",
@@ -99,6 +99,6 @@
     "152.d1e5a47e.chunk.js.map": "/vyarth-frontend/static/js/152.d1e5a47e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bb79a64d.js"
+    "static/js/main.c025c020.js"
   ]
 }
