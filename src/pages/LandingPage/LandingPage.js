@@ -16,13 +16,14 @@ import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import "./LandingPage.css"
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://vyarth.com/">
+        vyarth.com
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -41,7 +42,7 @@ export default function LandingPage() {
       <AppBar position="relative">
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Vyarth - Bekaar to Sweekar
+            Vy-Arth - Bekaar to Sweekar
           </Typography>
         </Toolbar>
       </AppBar>
@@ -61,10 +62,10 @@ export default function LandingPage() {
               color="text.primary"
               gutterBottom
             >
-              Vyarth
+              Vy-Arth
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Things which are useless for you can be useful for others.<br/>
+              Things which are useless for you can be useful for others.<br />
               Exchange your waste products for exclusive rewards.
             </Typography>
             <Stack
@@ -73,17 +74,29 @@ export default function LandingPage() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained" href='/home'>Join Now</Button>
+              <Button variant="contained" href='/home'>Join the initiative to make our world cleaner</Button>
             </Stack>
           </Container>
         </Box>
-        <Container maxWidth="md">
-          <img src="/images/waste.jpg" width="400" />
-          <ArrowRightAltIcon />
-        </Container>
+        <div className='imageWithInfoProcess'>
+          <div className='imageLayout'>
+            <img className='startPageImages' src="/images/waste.jpg" />
+            <ArrowRightAltIcon className='rightArrow' />
+            <img className='startPageImages' src="/images/reward_coins.jpg" />
+          </div>
+          <div className='info'>Get Reward Coins for disposing waste</div>
+        </div>
+        <div className='imageWithInfoProcess'>
+          <div className='imageLayout'>
+            <img className='startPageImages' src="/images/reward_coins.jpg" />
+            <ArrowRightAltIcon className='rightArrow' />
+            <img className='startPageImages' src="/images/rewards.png" />
+          </div>
+          <div className='info'>Use your Reward coins to redeem exclusive deals</div>
+        </div>
       </main>
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
+        {/* <Typography variant="h6" align="center" gutterBottom>
           Footer
         </Typography>
         <Typography
@@ -93,7 +106,7 @@ export default function LandingPage() {
           component="p"
         >
           Something here to give the footer a purpose!
-        </Typography>
+        </Typography> */}
         <Copyright />
       </Box>
       {/* End footer */}
